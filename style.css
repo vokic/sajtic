@@ -1,0 +1,22 @@
+
+body {
+    color: RoyalBlue ;
+    background-color: gold;
+    font-family: 'Raleway', sans-serif;
+    margin: 0; /* Skida marginu browsera */
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+header, footer {
+    background: royalblue;
+    color: #f0f0f0;
+    font-family: 'Raleway', sans-serif;
+    overflow: auto;  /* Da margine ne bi probijale  */
+}
+
+.crveno{
+    color: crimson;
+}

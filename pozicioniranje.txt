@@ -1,0 +1,6 @@
+POZICIONIRANJE
+
+- static (podrazumevano)
+- fixed (lepi element za ekran)
+- absolute (lepi element za stranicu)
+- relative (referentni okvir)

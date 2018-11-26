@@ -4,6 +4,10 @@ body {
     background-color: gold;
     font-family: 'Raleway', sans-serif;
     margin: 0; /* Skida marginu browsera */
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 img {
@@ -29,6 +33,11 @@ header, footer {
     color: #f0f0f0;
     font-family: 'Raleway', sans-serif;
     overflow: auto;  /* Da margine ne bi probijale  */
+}
+
+
+main{
+    flex: 1;
 }
 
 .crveno{
@@ -59,6 +68,33 @@ nav a:hover{
     background: navy;
 }
 
+.relative-wrapper{
+    position:relative;
+    display: inline-block;
+}
+
+/*.relative-wrapper img{
+width: 50%;
+}*/
+
+.delete-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.strelica-za-vrh{
+    font-size: 50px;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    left: 50%;
+    
+}
+
+
 @media(min-width: 600px){
     nav{
         text-align: center;
@@ -67,6 +103,9 @@ nav a:hover{
         display: inline-block;
         border-bottom: 0;
     }
+
+
+
 }
 
 @media(min-width: 1000px){
